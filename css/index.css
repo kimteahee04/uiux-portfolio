@@ -1,0 +1,118 @@
+@media (min-width: 1220px) {
+  .first {
+    height: 100vh;
+    background-color: #f7dede;
+    position: relative;
+  }
+  /* header */
+  header {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+  .logo img {
+    width: 85px;
+    display: block;
+  }
+  header img {
+    width: 85px;
+    display: block;
+  }
+  header nav img {
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  /* down */
+  .first .down {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+
+    /* color: #fff; */
+  }
+  h2 {
+    font-size: 55px;
+    font-family: "Cause", cursive;
+  }
+  h2:hover {
+    color: #000;
+  }
+  .down img {
+    width: 55px;
+    display: block;
+    margin: 0px auto;
+  }
+}
+
+/* 태블릿 */
+@media (min-width: 768px) and (max-width: 1220px) {
+  .first {
+    height: 100vh;
+    background-color: #f7dede;
+    position: relative;
+  }
+  /* header */
+  header {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+  .logo img {
+    width: 85px;
+    display: block;
+  }
+  header img {
+    width: 85px;
+    display: block;
+  }
+  header nav img {
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  /* down */
+  .first .down {
+    display: none;
+  }
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .first {
+    height: 100vh;
+    background-color: #f7dede;
+    position: relative;
+  }
+  /* header */
+  header {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    justify-content: space-between;
+  }
+  .logo img {
+    /* border: 1px solid red; */
+    width: 50px;
+    display: block;
+  }
+  header img {
+    width: 50px;
+    display: block;
+  }
+  header nav img {
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  /* down */
+  /* down */
+  .first .down {
+    display: none;
+  }
+}
