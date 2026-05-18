@@ -62,17 +62,330 @@
   .con02 {
     height: 100vh;
     background-color: #ffead7;
+    position: relative;
   }
   .con02 .Project1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 15%;
   }
-  .con02
+
+  /* li cafe */
+  .con02 .cafe h3 {
+    font-size: 3.5rem;
+  }
+  .con02 .cafe > p {
+    margin: 30px 0px;
+    font-size: 27px;
+  }
+  /* li a1 img */
+  .con02 .a1 {
+    border: 1px solid red;
+    display: flex;
+    gap: 1rem;
+    /* position: absolute;
+    left: 23%;
+    top: -20%; */
+  }
+  .con02 .a1 img {
+    border: 1px solid red;
+    display: block;
+  }
+  .con02 .a1 div:nth-child(2) {
+    border: 1px solid red;
+    padding-top: 370px;
+  }
+  /* tool */
+
+  .con02 .cafe .tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con02 .tool > p {
+    font-size: 25px;
+  }
+  .con02 .cafe .tool img {
+    object-fit: cover;
+    width: 30px;
+  }
+  .con02 .tool > img {
+    width: 20px;
+  }
+  /* link */
+  .con02 .link {
+    border: 1px solid #000;
+    margin-top: 30px;
+  }
+  .con02 .link a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .con02 .link img {
+    width: 30px;
+  }
 }
 
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
+  .first {
+    height: 100vh;
+    background-color: #f7efff;
+    position: relative;
+  }
+  /* header */
+  header {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+  .logo img {
+    width: 85px;
+    display: block;
+  }
+  header img {
+    width: 85px;
+    display: block;
+  }
+  header nav img {
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  /* Profile */
+  h2 {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* down */
+  .first .down {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .down p {
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "Cause", cursive;
+  }
+
+  .down img {
+    width: 55px;
+    display: block;
+    margin: 0px auto;
+  }
+  /* contents */
+  .con01 {
+    height: 100vh;
+    background-color: #e9dff4;
+  }
+  .con02 {
+    height: 100vh;
+    background-color: #ffead7;
+    position: relative;
+  }
+  .con02 .Project1 {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+  }
+
+  /* li cafe */
+  .con02 .cafe h3 {
+    font-size: 3.5rem;
+  }
+  .con02 .cafe > p {
+    margin: 30px 0px;
+    font-size: 27px;
+  }
+  /* li a1 img */
+  .con02 .a1 {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1rem;
+    /* position: absolute;
+    left: 23%;
+    top: -20%; */
+  }
+  .con02 .a1 img {
+    /* border: 1px solid red; */
+    display: block;
+  }
+  .con02 .a1 div:nth-child(2) {
+    /* border: 1px solid red; */
+    padding-top: 370px;
+  }
+  /* tool */
+
+  .con02 .cafe .tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con02 .tool > p {
+    font-size: 25px;
+  }
+  .con02 .cafe .tool img {
+    object-fit: cover;
+    width: 30px;
+  }
+  .con02 .tool > img {
+    width: 20px;
+  }
+  /* link */
+  .con02 .link {
+    border: 1px solid #000;
+    margin-top: 30px;
+  }
+  .con02 .link a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .con02 .link img {
+    width: 30px;
+  }
 }
 
 /* 모바일 */
 @media (max-width: 768px) {
+  .first {
+    height: 100vh;
+    background-color: #f7efff;
+    position: relative;
+  }
+  /* header */
+  header {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+  .logo img {
+    width: 85px;
+    display: block;
+  }
+  header img {
+    width: 85px;
+    display: block;
+  }
+  header nav img {
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  /* Profile */
+  h2 {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* down */
+  .first .down {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .down p {
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "Cause", cursive;
+  }
+
+  .down img {
+    width: 55px;
+    display: block;
+    margin: 0px auto;
+  }
+  /* contents */
+  .con01 {
+    height: 100vh;
+    background-color: #e9dff4;
+  }
+  .con02 {
+    height: 100vh;
+    background-color: #ffead7;
+    position: relative;
+  }
+  .con02 .Project1 {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0px auto;
+  }
+  .con02 .Project1 .a1 {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+  }
+  /* a1 */
+
+  .con02 .Project1 .a1 img {
+    /* border: 1px solid red; */
+    display: block;
+    width: 90%;
+
+    margin: 0px auto;
+  }
+  .con02 .a1 div:nth-child(2) {
+    /* border: 1px solid red; */
+    padding-top: 246px;
+  }
+  /* cafe */
+  .con02 .Project1 .cafe {
+    margin: 20px auto;
+  }
+  .con02 h3 {
+    font-size: 30px;
+  }
+  .con02 .Project1 .cafe p {
+    font-size: 15px;
+  }
+  .con02 .Project1 .cafe p:nth-child(2) {
+    margin: 20px 0px;
+  }
+  .con02 .Project1 .cafe .tool {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .con02 .Project1 .cafe .tool img {
+    width: 25px;
+  }
+  .con02 .Project1 .cafe .link a {
+    border: 1px solid #000;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
 }
