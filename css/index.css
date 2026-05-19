@@ -85,7 +85,6 @@
   }
   /* li a1 img */
   .con02 .a1 {
-    border: 1px solid red;
     display: flex;
     gap: 1rem;
     /* position: absolute;
@@ -93,11 +92,9 @@
     top: -20%; */
   }
   .con02 .a1 img {
-    border: 1px solid red;
     display: block;
   }
   .con02 .a1 div:nth-child(2) {
-    border: 1px solid red;
     padding-top: 370px;
   }
   /* tool */
