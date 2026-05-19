@@ -288,6 +288,45 @@ body {
     display: block;
     width: 30px;
   }
+
+  /* con05 */
+  .con05 {
+    background-color: #fff5be;
+    height: 100vh;
+    position: relative;
+  }
+  /* team_img */
+  .con05 .team_img {
+    border: 1px solid red;
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+  }
+  /* top */
+  /* .con05 .team_img .top {
+
+  } */
+  .con05 .team_img .top > img:first-child {
+    display: block;
+    width: 650px;
+  }
+  .con05 .team_img .top > img:nth-child(2) {
+    margin-top: 30px;
+    display: block;
+    width: 650px;
+  }
+  /* team_down */
+  .con05 .team_down > img:first-child {
+    display: block;
+    width: 650px;
+  }
+  .con05 .team_down > img:nth-child(2) {
+    display: block;
+    margin-top: 30px;
+    width: 658px;
+  }
 }
 
 /* 태블릿 */
@@ -300,7 +339,7 @@ body {
   /* header */
   header {
     display: flex;
-    /* border: 1px solid red; */
+
     padding: 0px 20px;
     padding-top: 20px;
     justify-content: space-between;
