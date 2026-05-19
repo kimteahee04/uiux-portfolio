@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
+
 @media (min-width: 1220px) {
   .first {
     height: 100vh;
@@ -49,7 +51,6 @@ body {
   .down p {
     font-weight: bold;
     font-size: 55px;
-    font-family: "Cause", cursive;
   }
 
   .down img {
@@ -288,44 +289,11 @@ body {
     display: block;
     width: 30px;
   }
-
-  /* con05 */
-  .con05 {
-    background-color: #fff5be;
-    height: 100vh;
-    position: relative;
-  }
-  /* team_img */
-  .con05 .team_img {
-    border: 1px solid red;
-    display: flex;
-    gap: 3rem;
+  .con04 > img {
     position: absolute;
-    top: 20%;
-    left: 12%;
-  }
-  /* top */
-  /* .con05 .team_img .top {
-
-  } */
-  .con05 .team_img .top > img:first-child {
-    display: block;
-    width: 650px;
-  }
-  .con05 .team_img .top > img:nth-child(2) {
-    margin-top: 30px;
-    display: block;
-    width: 650px;
-  }
-  /* team_down */
-  .con05 .team_down > img:first-child {
-    display: block;
-    width: 650px;
-  }
-  .con05 .team_down > img:nth-child(2) {
-    display: block;
-    margin-top: 30px;
-    width: 658px;
+    width: 800px;
+    right: 10%;
+    top: 10%;
   }
 }
 
@@ -420,9 +388,6 @@ body {
     /* border: 1px solid red; */
     display: flex;
     gap: 1rem;
-    /* position: absolute;
-    left: 23%;
-    top: -20%; */
   }
   .con02 .a1 img {
     /* border: 1px solid red; */
@@ -486,8 +451,6 @@ body {
 
   /* li society */
   .con03 .society {
-    /* border: 1px solid red; */
-    /* padding-bottom: 333px; */
     width: 200px;
   }
   .con03 h4 {
@@ -565,7 +528,7 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 5%;
   }
   /* 설명 */
@@ -587,7 +550,6 @@ body {
     /* border: 1px solid red; */
     font-size: 1.5rem;
     margin: 20px 0px;
-    width: 83%;
   }
   /* team_tool */
   .con04 .team {
@@ -625,6 +587,13 @@ body {
   .con04 .team_link a > img {
     display: block;
     width: 30px;
+  }
+  .con04 > img {
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 550px;
+    right: 10%;
+    top: 10%;
   }
 }
 
@@ -865,36 +834,34 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 40%;
+    left: 5%;
   }
   /* 설명 */
   .con04 .k-feat {
     /* border: 1px solid red; */
     position: absolute;
-    top: 45%;
-    left: 7%;
-    width: 95%;
+    top: 52%;
+    left: 5%;
   }
   .con04 .k-feat p:first-child {
     font-size: 2rem;
   }
   .con04 .k-feat p:nth-child(2) {
     /* border: 1px solid red; */
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 20px 0px;
   }
   .con04 .k-feat p:last-child {
     /* border: 1px solid red; */
     font-size: 1rem;
     margin: 20px 0px;
-    width: 83%;
   }
   /* team_tool */
   .con04 .team {
     width: 50%;
     position: absolute;
-    left: 7%;
+    left: 5%;
     bottom: 10%;
   }
   .con04 .team_tool {
@@ -926,5 +893,12 @@ body {
   .con04 .team_link a > img {
     display: block;
     width: 30px;
+  }
+  .con04 > img {
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 90%;
+    right: 4%;
+    top: 10%;
   }
 }
