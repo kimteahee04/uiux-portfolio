@@ -118,14 +118,17 @@
   /* link */
   .con02 .link {
     border: 1px solid #000;
-    margin-top: 30px;
-  }
-  .con02 .link a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 150px;
+    margin-top: 30px;
   }
-  .con02 .link img {
+  .con02 .link a:first-child {
+    padding: 4px;
+  }
+  .con02 .link a > img {
+    display: block;
     width: 30px;
   }
 }
@@ -254,14 +257,17 @@
   /* link */
   .con02 .link {
     border: 1px solid #000;
-    margin-top: 30px;
-  }
-  .con02 .link a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 150px;
+    margin-top: 30px;
   }
-  .con02 .link img {
+  .con02 .link a:first-child {
+    padding: 4px;
+  }
+  .con02 .link a > img {
+    display: block;
     width: 30px;
   }
 }
@@ -334,9 +340,11 @@
     position: relative;
   }
   .con02 .Project1 {
-    /* border: 1px solid red; */
     width: 90%;
     margin: 0px auto;
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
   }
   .con02 .Project1 .a1 {
     width: 90%;
@@ -353,7 +361,7 @@
     margin: 0px auto;
   }
   .con02 .a1 div:nth-child(2) {
-    /* border: 1px solid red; */
+    /*  */
     padding-top: 246px;
   }
   /* cafe */
@@ -377,12 +385,22 @@
   .con02 .Project1 .cafe .tool img {
     width: 25px;
   }
-  .con02 .Project1 .cafe .link a {
+  /* link */
+  .con02 .Project1 .link {
     border: 1px solid #000;
     margin-top: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 40%;
+    gap: 1rem;
+    align-items: center;
+    width: 150px;
+  }
+  .con02 .Project1 .link a > img {
+    /* border: 1px solid red; */
+    display: block;
+    width: 30px;
+  }
+  .con02 .link a:first-child {
+    padding: 4px;
   }
 }
