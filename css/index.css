@@ -480,15 +480,10 @@ body {
     left: 2%;
   }
   .con05 .ai {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
   }
   .con05 .ai img {
-    width: calc((100% - 40px) / 3);
-    height: 300px;
+    width: 300px;
     object-fit: cover;
-    display: block;
   }
 }
 
