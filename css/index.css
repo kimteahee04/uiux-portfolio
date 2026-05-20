@@ -12,7 +12,6 @@ body {
   /* header */
   header {
     display: flex;
-    /* border: 1px solid red; */
     padding: 0px 20px;
     padding-top: 20px;
     justify-content: space-between;
@@ -29,12 +28,10 @@ body {
     display: block;
   }
   header nav img {
-    /* border: 1px solid red; */
     cursor: pointer;
   }
   /* Profile */
   h2 {
-    /* border: 1px solid red; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,14 +64,12 @@ body {
     position: relative;
   }
   .con01 .photo img {
-    /* border: 1px solid red; */
     width: 400px;
     height: 600px;
     display: block;
     object-fit: cover;
   }
   .con01 .all {
-    /* border: 1px solid red; */
     display: flex;
     gap: 6rem;
     width: 80%;
@@ -86,13 +81,10 @@ body {
   }
 
   .con01 .name div p:nth-child(1) {
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     margin-top: 3.5rem;
   }
   .con01 .skill {
-    /* border: 1px solid red; */
-    /* display: flex; */
     position: absolute;
     left: 32%;
     bottom: -3%;
@@ -102,19 +94,16 @@ body {
   }
 
   .con01 .skill img {
-    /* border: 1px solid red; */
     display: inline-block;
     width: 5.2rem;
   }
   .con01 .email {
-    /* border: 1px solid red; */
     margin-top: 0px;
     position: absolute;
     right: 35%;
     top: 15%;
   }
   .con01 .gtq {
-    /* border: 1px solid red; */
     position: absolute;
     right: 40%;
     top: 35%;
@@ -128,7 +117,6 @@ body {
   .con02 .box {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -137,7 +125,6 @@ body {
     left: 7%;
   }
   .con02 .box img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con02 .box img {
@@ -158,7 +145,6 @@ body {
   }
   /* cafe */
   .con02 .cafe {
-    /* border: 1px solid red; */
     position: absolute;
     right: 18%;
     bottom: 40%;
@@ -211,7 +197,7 @@ body {
   }
   .con02 .cafe .tool img {
     object-fit: cover;
-    width: 30px;
+    width: 40px;
   }
   .con02 .tool > img {
     width: 20px;
@@ -226,7 +212,7 @@ body {
     margin-top: 30px;
   }
   .con02 .link a:first-child {
-    padding: 4px;
+    padding: 7px;
   }
   .con02 .link a > img {
     display: block;
@@ -250,7 +236,6 @@ body {
   .con03 .Project_2 {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -259,7 +244,6 @@ body {
     left: 30%;
   }
   .con03 .Project_2 img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con03 .Project_2 img {
@@ -279,7 +263,6 @@ body {
   }
   /* cafe */
   .con03 .society {
-    /* border: 1px solid red; */
     position: absolute;
     left: 15%;
     bottom: 40%;
@@ -295,12 +278,9 @@ body {
   .con03 .society_tool > p {
     font-size: 25px;
   }
-  .con03 .society_tool img {
-    object-fit: cover;
-    width: 30px;
-  }
+
   .con03 .society_tool > img {
-    width: 20px;
+    width: 40px;
   }
 
   .con03 .society_tool {
@@ -312,13 +292,7 @@ body {
   .con0 .society_tool > p {
     font-size: 25px;
   }
-  .con03 .society_tool img {
-    object-fit: cover;
-    width: 30px;
-  }
-  .con03 .society_tool > img {
-    width: 20px;
-  }
+
   /* link */
   .con03 .society_link {
     border: 1px solid #000;
@@ -344,7 +318,7 @@ body {
     margin-top: 30px;
   }
   .con03 .society_link a:first-child {
-    padding: 4px;
+    padding: 7px;
   }
   .con03 .society_link a > img {
     display: block;
@@ -374,7 +348,6 @@ body {
   }
   /* 설명 */
   .con04 .k-feat {
-    /* border: 1px solid red; */
     position: absolute;
     top: 45%;
     left: 5%;
@@ -383,12 +356,10 @@ body {
     font-size: 3rem;
   }
   .con04 .k-feat p:nth-child(2) {
-    /* border: 1px solid red; */
     font-size: 2.5rem;
     margin: 20px 0px;
   }
   .con04 .k-feat p:last-child {
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     margin: 20px 0px;
   }
@@ -410,7 +381,7 @@ body {
   }
   .con04 .team .team_tool img {
     object-fit: cover;
-    width: 35px;
+    width: 40px;
   }
 
   /* team_link */
@@ -423,7 +394,7 @@ body {
     margin-top: 30px;
   }
   .con04 .team_link a:first-child {
-    padding: 4px;
+    padding: 7px;
   }
   .con04 .team_link a > img {
     display: block;
@@ -438,7 +409,6 @@ body {
   .con04 .team_3 {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -447,7 +417,6 @@ body {
     right: 7%;
   }
   .con04 .team_3 img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con04 .team_3 img {
@@ -488,7 +457,6 @@ body {
     bottom: 10%;
   }
   .con05 .ai img {
-    border: 1px solid red;
     display: block;
 
     width: 300px;
@@ -527,12 +495,10 @@ body {
     display: block;
   }
   header nav img {
-    /* border: 1px solid red; */
     cursor: pointer;
   }
   /* Profile */
   h2 {
-    /* border: 1px solid red; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -566,14 +532,12 @@ body {
     position: relative;
   }
   .con01 .photo img {
-    /* border: 1px solid red; */
     width: 350px;
     height: 500px;
     display: block;
     object-fit: cover;
   }
   .con01 .all {
-    /* border: 1px solid red; */
     display: flex;
     gap: 5rem;
     width: 80%;
@@ -585,21 +549,17 @@ body {
   }
 
   .con01 .name div p:nth-child(1) {
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     margin-top: 1.5rem;
   }
 
   .con01 .skill {
-    /* border: 1px solid red; */
-    /* display: flex; */
     position: absolute;
     left: 0%;
     bottom: -26%;
   }
 
   .con01 .skill img {
-    /* border: 1px solid red; */
     display: inline-block;
     width: 3rem;
   }
@@ -613,7 +573,6 @@ body {
   .con02 .box {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -622,7 +581,6 @@ body {
     left: 7%;
   }
   .con02 .box img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con02 .box img {
@@ -643,7 +601,6 @@ body {
   }
   /* cafe */
   .con02 .cafe {
-    /* border: 1px solid red; */
     position: absolute;
     right: 4%;
     bottom: 40%;
@@ -696,7 +653,7 @@ body {
   }
   .con02 .cafe .tool img {
     object-fit: cover;
-    width: 30px;
+    width: 35px;
   }
   .con02 .tool > img {
     width: 20px;
@@ -735,7 +692,6 @@ body {
   .con03 .Project_2 {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -744,7 +700,6 @@ body {
     left: 30%;
   }
   .con03 .Project_2 img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con03 .Project_2 img {
@@ -764,7 +719,6 @@ body {
   }
   /* cafe */
   .con03 .society {
-    /* border: 1px solid red; */
     position: absolute;
     left: 8%;
     bottom: 43%;
@@ -780,12 +734,10 @@ body {
   .con03 .society_tool > p {
     font-size: 25px;
   }
-  .con03 .society_tool img {
-    object-fit: cover;
-    width: 30px;
-  }
+
   .con03 .society_tool > img {
-    width: 20px;
+    object-fit: cover;
+    width: 35px;
   }
 
   .con03 .society_tool {
@@ -794,16 +746,10 @@ body {
     gap: 1rem;
     align-items: center;
   }
-  .con0 .society_tool > p {
+  .con03 .society_tool > p {
     font-size: 25px;
   }
-  .con03 .society_tool img {
-    object-fit: cover;
-    width: 30px;
-  }
-  .con03 .society_tool > img {
-    width: 20px;
-  }
+
   /* link */
   .con03 .society_link {
     border: 1px solid #000;
@@ -859,7 +805,6 @@ body {
   }
   /* 설명 */
   .con04 .k-feat {
-    /* border: 1px solid red; */
     position: absolute;
     top: 45%;
     left: 5%;
@@ -868,12 +813,10 @@ body {
     font-size: 3rem;
   }
   .con04 .k-feat p:nth-child(2) {
-    /* border: 1px solid red; */
     font-size: 2.5rem;
     margin: 20px 0px;
   }
   .con04 .k-feat p:last-child {
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     margin: 20px 0px;
   }
@@ -923,7 +866,6 @@ body {
   .con04 .team_3 {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -932,7 +874,6 @@ body {
     right: -18%;
   }
   .con04 .team_3 img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con04 .team_3 img {
@@ -973,7 +914,6 @@ body {
     bottom: 10%;
   }
   .con05 .ai img {
-    border: 1px solid red;
     display: block;
 
     width: 300px;
@@ -1012,13 +952,11 @@ body {
     display: block;
   }
   header nav img {
-    /* border: 1px solid red; */
     cursor: pointer;
     width: 50px;
   }
   /* Profile */
   h2 {
-    /* border: 1px solid red; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1077,7 +1015,6 @@ body {
   }
 
   .con01 .skill img {
-    /* border: 1px solid red; */
     display: inline-block;
     width: 4.2rem;
   }
@@ -1091,10 +1028,9 @@ body {
   .con02 .box {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
+
     margin: 0px auto;
     position: relative;
-    /* display: flex; */
     position: absolute;
     top: 10%;
     left: 20%;
@@ -1516,28 +1452,32 @@ body {
     position: relative;
   }
   .con05 h4 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     position: absolute;
     top: 3%;
     left: 2%;
   }
   .con05 .ai {
+    /* border: 1px solid red; */
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    position: absolute;
+    width: 90%;
+    margin: 0px auto;
+    /* position: absolute;
     left: 5%;
-    bottom: 10%;
+    bottom: 10%; */
+    padding-top: 210px;
   }
   .con05 .ai img {
-    border: 1px solid red;
     display: block;
 
-    width: 200px;
+    width: 100%;
     height: 200px;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
   .con05 .ai li {
-    width: calc((100% - 4rem) / 3);
+    width: calc((90% - 4rem) / 2);
+    margin: 0px auto;
   }
 }
