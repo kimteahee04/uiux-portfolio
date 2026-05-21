@@ -33,14 +33,23 @@ body {
     cursor: pointer;
   }
   /* Profile */
-  h2 {
+  .Profile {
     /* border: 1px solid red; */
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 30%;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+    /* line-height: 5.5rem; */
   }
+  .Profile h2 span {
+    display: block;
+  }
+
+  .Profile .uiux {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
   /* down */
   .first .down {
     position: absolute;
@@ -488,7 +497,6 @@ body {
     bottom: 10%;
   }
   .con05 .ai img {
-    border: 1px solid red;
     display: block;
 
     width: 300px;
@@ -497,6 +505,35 @@ body {
   }
   .con05 .ai li {
     width: calc((100% - 4rem) / 3);
+  }
+  /* footer */
+  footer {
+    background-color: #d4feff;
+    height: 100vh;
+    position: relative;
+  }
+  footer .ui {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+  footer .ui p:first-child {
+    font-size: 5rem;
+  }
+  footer .ui p:nth-child(2) {
+    font-size: 3rem;
+  }
+  footer .ux {
+    border-top: 1px solid #000;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    align-items: center;
+  }
+  footer img {
+    width: 40px;
   }
 }
 
@@ -530,15 +567,7 @@ body {
     /* border: 1px solid red; */
     cursor: pointer;
   }
-  /* Profile */
-  h2 {
-    /* border: 1px solid red; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+
   /* down */
   .first .down {
     position: absolute;
@@ -556,6 +585,24 @@ body {
     width: 55px;
     display: block;
     margin: 0px auto;
+  }
+
+  /* Profile */
+  .Profile {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+    /* line-height: 5.5rem; */
+  }
+  .Profile h2 span {
+    display: block;
+  }
+
+  .Profile .uiux {
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
   /* contents */
 
@@ -973,7 +1020,6 @@ body {
     bottom: 10%;
   }
   .con05 .ai img {
-    border: 1px solid red;
     display: block;
 
     width: 300px;
@@ -982,6 +1028,36 @@ body {
   }
   .con05 .ai li {
     width: calc((100% - 4rem) / 3);
+  }
+
+  /* footer */
+  footer {
+    background-color: #d4feff;
+    height: 100vh;
+    position: relative;
+  }
+  footer .ui {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+  /* footer .ui p:first-child {
+    font-size: 3.5rem;
+  } */
+  footer .ui p:nth-child(1) {
+    font-size: 2.5rem;
+  }
+  footer .ux {
+    border-top: 1px solid #000;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    align-items: center;
+  }
+  footer img {
+    width: 40px;
   }
 }
 
@@ -1016,15 +1092,35 @@ body {
     cursor: pointer;
     width: 50px;
   }
-  /* Profile */
-  h2 {
-    /* border: 1px solid red; */
+  .first .Profile {
+    width: 90%;
     position: absolute;
-    top: 50%;
+    top: 33%;
+    left: 5%;
+  }
+  .first .Profile .uiux h2:nth-child(2) {
+    /* border: 1px solid red; */
+    margin: 2rem 0px;
+  }
+  /* down */
+  .first .down {
+    position: absolute;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
   }
+  .down p {
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "Cause", cursive;
+  }
+
+  .down img {
+    width: 55px;
+    display: block;
+    margin: 0px auto;
+  }
+
   /* down */
   .first .down {
     position: absolute;
@@ -1516,7 +1612,7 @@ body {
     position: relative;
   }
   .con05 h4 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     position: absolute;
     top: 3%;
     left: 2%;
@@ -1526,11 +1622,11 @@ body {
     gap: 1rem;
     flex-wrap: wrap;
     position: absolute;
-    left: 5%;
+    left: 8%;
     bottom: 10%;
   }
   .con05 .ai img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: block;
 
     width: 200px;
@@ -1538,6 +1634,44 @@ body {
     object-fit: cover;
   }
   .con05 .ai li {
-    width: calc((100% - 4rem) / 3);
+    width: calc((100% - 4rem) / 2);
+  }
+
+  /* footer */
+  footer {
+    background-color: #d4feff;
+    height: 100vh;
+    position: relative;
+  }
+  footer .ui {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    width: 90%;
+    /* 
+ 
+    text-align: center;
+    margin: 0px auto; */
+  }
+
+  footer .ui p:nth-child(1) {
+    font-size: 2rem;
+  }
+  footer .ux {
+    /* border: 1px solid red; */
+    /* border-top: 1px solid #000; */
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  footer img {
+    width: 30px;
   }
 }
