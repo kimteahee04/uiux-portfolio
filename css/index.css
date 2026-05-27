@@ -516,10 +516,15 @@ body {
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
   .first {
-    height: 100vh;
-    background-color: #f7efff;
+    border: 1px solid red;
+    background-color: rgb(229, 245, 252);
     position: relative;
+    min-height: 100vh;
   }
+  .Profile {
+    border: 1px solid red;
+  }
+
   /* header */
   header {
     display: flex;
@@ -531,12 +536,15 @@ body {
     z-index: 10;
     width: 100%;
   }
+  header ul {
+    display: none;
+  }
   .logo img {
-    width: 85px;
+    width: 70px;
     display: block;
   }
   header img {
-    width: 85px;
+    width: 70px;
     display: block;
   }
   header nav img {
@@ -595,430 +603,6 @@ body {
   .Profile .uiux {
     margin-bottom: 2rem;
     font-size: 2rem;
-  }
-
-  /* contents */
-  /* con01 */
-  .con01 {
-    background-color: #e9dff4;
-    position: relative;
-  }
-  .con01 .photo img {
-    width: 350px;
-    height: 500px;
-    display: block;
-    object-fit: cover;
-  }
-  .con01 .all {
-    display: flex;
-    gap: 5rem;
-    width: 80%;
-    margin: 0px auto;
-    align-items: center;
-    position: absolute;
-    top: 18%;
-    left: 10%;
-  }
-
-  .con01 .name div p:nth-child(1) {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-  }
-
-  .con01 .skill {
-    position: absolute;
-    left: 0%;
-    bottom: -26%;
-  }
-
-  .con01 .skill img {
-    display: inline-block;
-    width: 3rem;
-  }
-
-  /* con02 */
-  .con02 {
-    background-color: #ffead7;
-    position: relative;
-  }
-  .con02 .box {
-    width: 90%;
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 22%;
-    left: 7%;
-  }
-  .con02 .box img:nth-child(3) {
-    object-fit: cover;
-  }
-  .con02 .box img {
-    width: 60%;
-  }
-  .con02 .box .folio {
-    width: 56%;
-    height: 72%;
-    background-image: url(../img/cafe\ last.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: absolute;
-    left: 2%;
-    top: 1%;
-    /* transition: 10s; */
-  }
-  /* cafe */
-  .con02 .cafe {
-    position: absolute;
-    right: 4%;
-    bottom: 40%;
-  }
-  /* tool */
-
-  .con02 .cafe .tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con02 .tool > p {
-    font-size: 25px;
-  }
-  .con02 .cafe .tool img {
-    object-fit: cover;
-    width: 30px;
-  }
-  .con02 .tool > img {
-    width: 20px;
-  }
-
-  /* link */
-  .con02 .link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con02 .link a:first-child {
-    padding: 4px;
-  }
-  .con02 .link a > img {
-    display: block;
-    width: 30px;
-  }
-
-  /* tool */
-
-  .con02 .cafe .tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con02 .tool > p {
-    font-size: 25px;
-  }
-  .con02 .cafe .tool img {
-    object-fit: cover;
-    width: 35px;
-  }
-  .con02 .tool > img {
-    width: 20px;
-  }
-  /* link */
-  .con02 .link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con02 .link a:first-child {
-    padding: 4px;
-  }
-  .con02 .link a > img {
-    display: block;
-    width: 30px;
-  }
-  .con02 h3 {
-    font-size: 3rem;
-  }
-  .con02 .cafe > p {
-    font-size: 25px;
-    margin: 20px 0px;
-  }
-
-  /* con03 */
-  .con03 {
-     background-color: #d3e5f8;
-    position: relative;
-  }
-
-  .con03 .Project_2 {
-    width: 90%;
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 22%;
-    left: 30%;
-  }
-  .con03 .Project_2 img:nth-child(3) {
-    object-fit: cover;
-  }
-  .con03 .Project_2 img {
-    width: 60%;
-  }
-  .con03 .folio_1 {
-    width: 56%;
-    height: 71%;
-    background-image: url(../img/사회\ 복시\ 최종\ 시안\ \,\ pc버전.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 2%;
-    top: 2%;
-    /* transition: 10s; */
-  }
-  /* cafe */
-  .con03 .society {
-    position: absolute;
-    left: 8%;
-    bottom: 43%;
-  }
-
-  /* tool */
-  .con03 .tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con03 .society_tool > p {
-    font-size: 25px;
-  }
-
-  .con03 .society_tool > img {
-    object-fit: cover;
-    width: 35px;
-  }
-
-  .con03 .society_tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con03 .society_tool > p {
-    font-size: 25px;
-  }
-
-  /* link */
-  .con03 .society_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con03 .society_link a:first-child {
-    padding: 4px;
-  }
-  .con03 .society_link a > img {
-    display: block;
-    width: 30px;
-  }
-  .con03 .society_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con03 .society_link a:first-child {
-    padding: 4px;
-  }
-  .con03 .society_link a > img {
-    display: block;
-    width: 30px;
-  }
-
-  .con03 h3 {
-    font-size: 3rem;
-  }
-  .con03 .society > p {
-    font-size: 25px;
-    margin: 20px 0px;
-  }
-
-  /* con4 */
-  .con04 {
-    background-color: #fdfbef;
-    position: relative;
-  }
-  .con04 > p {
-    font-size: 3.5rem;
-    font-weight: bold;
-    position: absolute;
-    top: 15%;
-    left: 5%;
-  }
-
-  /* 설명 */
-  .con04 .k-feat {
-    position: absolute;
-    top: 45%;
-    left: 5%;
-  }
-  .con04 .k-feat p:first-child {
-    font-size: 3rem;
-  }
-  .con04 .k-feat p:nth-child(2) {
-    font-size: 2.5rem;
-    margin: 20px 0px;
-  }
-  .con04 .k-feat p:last-child {
-    font-size: 1.5rem;
-    margin: 20px 0px;
-  }
-  /* team_tool */
-  .con04 .team {
-    width: 50%;
-    position: absolute;
-    left: 5%;
-    bottom: 10%;
-  }
-  .con04 .team_tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con04 .team_tool > p {
-    font-size: 45px;
-  }
-  .con04 .team .team_tool img {
-    object-fit: cover;
-    width: 35px;
-  }
-
-  /* team_link */
-  .con04 .team_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 175px;
-    margin-top: 30px;
-  }
-  .con04 .team_link a:first-child {
-    padding: 4px;
-  }
-  .con04 .team_link a > img {
-    display: block;
-    width: 30px;
-  }
-  .con04 > img {
-    position: absolute;
-    width: 800px;
-    right: 10%;
-    top: 10%;
-  }
-  .con04 .team_3 {
-    width: 90%;
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 10%;
-    right: -18%;
-  }
-  .con04 .team_3 img:nth-child(3) {
-    object-fit: cover;
-  }
-  .con04 .team_3 img {
-    width: 60%;
-  }
-  .con04 .team_3 .folio_3 {
-    width: 58%;
-    height: 70%;
-    background-image: url(../img/팀\ 프로젝트\ 1.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: absolute;
-    left: 1%;
-    top: 2%;
-    /* transition: 10s; */
-  }
-
-  /* con05 */
-  .con05 {
-    background-color: #dddeff;
-    position: relative;
-  }
-  .con05 h4 {
-    font-size: 5rem;
-    position: absolute;
-    top: 3%;
-    left: 2%;
-  }
-  .con05 .ai {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 5%;
-    bottom: 10%;
-  }
-  .con05 .ai img {
-    display: block;
-
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-  }
-  .con05 .ai li {
-    width: calc((100% - 4rem) / 3);
-  }
-
-  /* footer */
-  footer {
-    background-color: #d4feff;
-    position: relative;
-  }
-  footer .ui {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-  }
-
-  footer .ui p:nth-child(1) {
-    font-size: 2.5rem;
-  }
-  footer .ux {
-    border-top: 1px solid #000;
-    display: flex;
-    gap: 2rem;
-    position: absolute;
-    bottom: 20%;
-    left: 20%;
-    align-items: center;
-  }
-  footer img {
-    width: 40px;
   }
 }
 
@@ -1109,7 +693,6 @@ body {
 
   /* con01 */
   .con01 {
-   
     background-color: #e9dff4;
     position: relative;
   }
@@ -1322,7 +905,7 @@ body {
     gap: 1rem;
     align-items: center;
   }
-  .con0 .society_tool > p {
+  .con03 .society_tool > p {
     font-size: 25px;
   }
   .con03 .society_tool img {
