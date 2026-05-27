@@ -31,23 +31,26 @@ body {
     cursor: pointer;
   }
   /* Profile */
-  h2 {
-    /* border: 1px solid red; */
+  .Profile {
+  
+    font-weight: normal;
     position: absolute;
     top: 30%;
     left: 20%;
-    /* transform: translate(-50%, -50%); */
-    /* line-height: 5.5rem; */
   }
-  .Profile h2 span {
+  .Profile span {
     display: block;
   }
-
-  .Profile .uiux {
-    margin-bottom: 2rem;
+  .Profile h2 {
+    font-size: 3rem;
+  }
+  .Profile h2 span {
+    padding: 1rem 0px;
+  }
+  .Profile .txt {
+    font-weight: bold;
     font-size: 2rem;
   }
-
   /* down */
   .first .down {
     position: absolute;
@@ -65,8 +68,8 @@ body {
     display: block;
     margin: 0px auto;
   }
-  /* contents */
 
+  /* contents */
   /* con01 */
   .con01 {
     height: 100vh;
@@ -151,7 +154,6 @@ body {
     position: absolute;
     left: 4%;
     top: 1%;
-    /* transition: 10s; */
   }
   /* cafe */
   .con02 .cafe {
@@ -159,8 +161,8 @@ body {
     right: 18%;
     bottom: 40%;
   }
-  /* tool */
 
+  /* tool */
   .con02 .cafe .tool {
     font-size: 20px;
     display: flex;
@@ -373,6 +375,7 @@ body {
     font-size: 1.5rem;
     margin: 20px 0px;
   }
+
   /* team_tool */
   .con04 .team {
     width: 50%;
@@ -476,6 +479,7 @@ body {
   .con05 .ai li {
     width: calc((100% - 4rem) / 3);
   }
+
   /* footer */
   footer {
     background-color: #d4feff;
@@ -537,13 +541,25 @@ body {
     cursor: pointer;
   }
   /* Profile */
-  h2 {
-    /* border: 1px solid red; */
+  .Profile {
+    font-weight: normal;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+
+    top: 30%;
+    left: 20%;
+  }
+  .Profile span {
+    display: block;
+  }
+  .Profile h2 {
+    font-size: 2rem;
+  }
+  .Profile h2 span {
+    padding: 1rem 0px;
+  }
+  .Profile .txt {
+    font-weight: bold;
+    font-size: 1.5rem;
   }
   /* down */
   .first .down {
@@ -566,12 +582,9 @@ body {
 
   /* Profile */
   .Profile {
-    /* border: 1px solid red; */
     position: absolute;
     top: 30%;
     left: 20%;
-    /* transform: translate(-50%, -50%); */
-    /* line-height: 5.5rem; */
   }
   .Profile h2 span {
     display: block;
@@ -581,8 +594,8 @@ body {
     margin-bottom: 2rem;
     font-size: 2rem;
   }
-  /* contents */
 
+  /* contents */
   /* con01 */
   .con01 {
     height: 100vh;
@@ -681,6 +694,7 @@ body {
   .con02 .tool > img {
     width: 20px;
   }
+
   /* link */
   .con02 .link {
     border: 1px solid #000;
@@ -781,8 +795,8 @@ body {
     left: 8%;
     bottom: 43%;
   }
-  /* tool */
 
+  /* tool */
   .con03 .tool {
     font-size: 20px;
     display: flex;
@@ -861,6 +875,7 @@ body {
     top: 15%;
     left: 5%;
   }
+
   /* 설명 */
   .con04 .k-feat {
     position: absolute;
@@ -993,9 +1008,7 @@ body {
     top: 25%;
     left: 20%;
   }
-  /* footer .ui p:first-child {
-    font-size: 3.5rem;
-  } */
+
   footer .ui p:nth-child(1) {
     font-size: 2.5rem;
   }
@@ -1023,7 +1036,6 @@ body {
   /* header */
   header {
     display: flex;
-    /* border: 1px solid red; */
     padding: 0px 20px;
     padding-top: 20px;
     justify-content: space-between;
@@ -1044,13 +1056,29 @@ body {
     width: 50px;
   }
   /* Profile */
-  h2 {
-    /* border: 1px solid red; */
+
+  .Profile {
+    border: 1px solid red;
+    font-weight: normal;
     position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 20%;
   }
+  .Profile span {
+    display: block;
+  }
+  .Profile h2 {
+    font-size: 1.3rem;
+  }
+  .Profile h2 span {
+    padding: 1rem 0px;
+  }
+  .Profile .txt {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  /* down */
   .down p {
     font-weight: bold;
     font-size: 55px;
@@ -1081,6 +1109,7 @@ body {
     display: block;
     margin: 0px auto;
   }
+
   /* contents */
   .con01 {
     height: 100vh;
@@ -1136,7 +1165,6 @@ body {
     left: 20%;
   }
   .con02 .box img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con02 .box img {
@@ -1157,7 +1185,6 @@ body {
   }
   /* cafe */
   .con02 .cafe {
-    /* border: 1px solid red; */
     position: absolute;
     left: 4%;
     bottom: 3%;
@@ -1249,7 +1276,6 @@ body {
   .con03 .Project_2 {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     /* display: flex; */
@@ -1258,7 +1284,6 @@ body {
     left: 20%;
   }
   .con03 .Project_2 img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con03 .Project_2 img {
@@ -1279,7 +1304,6 @@ body {
   }
   /* cafe */
   .con03 .society {
-    /* border: 1px solid red; */
     position: absolute;
     left: 4%;
     bottom: 3%;
@@ -1374,7 +1398,6 @@ body {
   }
   /* 설명 */
   .con04 .k-feat {
-    /* border: 1px solid red; */
     position: absolute;
     top: 52%;
     left: 5%;
@@ -1383,15 +1406,14 @@ body {
     font-size: 2rem;
   }
   .con04 .k-feat p:nth-child(2) {
-    /* border: 1px solid red; */
     font-size: 2rem;
     margin: 20px 0px;
   }
   .con04 .k-feat p:last-child {
-    /* border: 1px solid red; */
     font-size: 1rem;
     margin: 20px 0px;
   }
+
   /* team_tool */
   .con04 .team {
     width: 50%;
@@ -1430,7 +1452,6 @@ body {
     width: 30px;
   }
   .con04 > img {
-    /* border: 1px solid red; */
     position: absolute;
     width: 90%;
     right: 4%;
@@ -1452,7 +1473,6 @@ body {
   }
   /* 설명 */
   .con04 .k-feat {
-    /* border: 1px solid red; */
     position: absolute;
     top: 60%;
     left: 5%;
@@ -1461,13 +1481,10 @@ body {
     font-size: 2rem;
   }
   .con04 .k-feat p:nth-child(2) {
-    /* border: 1px solid red; */
     font-size: 2rem;
     margin: 20px 0px;
   }
   .con04 .k-feat p:last-child {
-    /* border: 1px solid red; */
-    /* font-size: 1.4rem; */
     margin: 20px 0px;
   }
   /* team_tool */
@@ -1516,7 +1533,6 @@ body {
   .con04 .team_3 {
     width: 90%;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -1525,7 +1541,6 @@ body {
     right: -3%;
   }
   .con04 .team_3 img:nth-child(3) {
-    /* border: 1px solid red; */
     object-fit: cover;
   }
   .con04 .team_3 img {
@@ -1558,7 +1573,6 @@ body {
     left: 2%;
   }
   .con05 .ai {
-    /* border: 1px solid red; */
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
