@@ -19,6 +19,9 @@ body {
     z-index: 10;
     width: 100%;
   }
+  header ul {
+    display: none;
+  }
   .logo img {
     width: 85px;
     display: block;
@@ -597,7 +600,6 @@ body {
   /* contents */
   /* con01 */
   .con01 {
-    height: 100vh;
     background-color: #e9dff4;
     position: relative;
   }
@@ -636,7 +638,6 @@ body {
 
   /* con02 */
   .con02 {
-    height: 100vh;
     background-color: #ffead7;
     position: relative;
   }
@@ -755,8 +756,7 @@ body {
 
   /* con03 */
   .con03 {
-    height: 100vh;
-    background-color: #d3e5f8;
+     background-color: #d3e5f8;
     position: relative;
   }
 
@@ -864,7 +864,6 @@ body {
   /* con4 */
   .con04 {
     background-color: #fdfbef;
-    height: 100vh;
     position: relative;
   }
   .con04 > p {
@@ -967,7 +966,6 @@ body {
 
   /* con05 */
   .con05 {
-    height: 100vh;
     background-color: #dddeff;
     position: relative;
   }
@@ -999,7 +997,6 @@ body {
   /* footer */
   footer {
     background-color: #d4feff;
-    height: 100vh;
     position: relative;
   }
   footer .ui {
@@ -1028,7 +1025,6 @@ body {
 /* 모바일 */
 @media (max-width: 768px) {
   .first {
-    height: 100vh;
     background-color: #f7efff;
     position: relative;
   }
@@ -1110,14 +1106,10 @@ body {
   }
 
   /* contents */
-  .con01 {
-    height: 100vh;
-    background-color: #e9dff4;
-  }
 
   /* con01 */
   .con01 {
-    height: 100vh;
+   
     background-color: #e9dff4;
     position: relative;
   }
@@ -1149,7 +1141,6 @@ body {
 
   /* con02 */
   .con02 {
-    height: 100vh;
     background-color: #ffead7;
     position: relative;
   }
@@ -1267,7 +1258,6 @@ body {
 
   /* con03 */
   .con03 {
-    height: 100vh;
     background-color: #d3e5f8;
     position: relative;
   }
@@ -1385,7 +1375,6 @@ body {
   /* con4 */
   .con04 {
     background-color: #fdfbef;
-    height: 100vh;
     position: relative;
   }
   .con04 > p {
@@ -1561,7 +1550,6 @@ body {
 
   /* con05 */
   .con05 {
-    height: 100vh;
     background-color: #dddeff;
     position: relative;
   }
@@ -1590,7 +1578,6 @@ body {
   /* footer */
   footer {
     background-color: #d4feff;
-    height: 100vh;
     position: relative;
   }
   footer .ui {
