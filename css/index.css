@@ -32,7 +32,6 @@ body {
   }
   /* Profile */
   .Profile {
-  
     font-weight: normal;
     position: absolute;
     top: 30%;
@@ -1058,7 +1057,7 @@ body {
   /* Profile */
 
   .Profile {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-weight: normal;
     position: absolute;
     top: 30%;
@@ -1581,14 +1580,38 @@ body {
     bottom: 10%;
   }
   .con05 .ai img {
-    border: 1px solid red;
     display: block;
-
     width: 100%;
     height: 200px;
-    /* object-fit: cover; */
   }
   .con05 .ai li {
     width: calc((100% - 4rem) / 3);
+  }
+  /* footer */
+  footer {
+    background-color: #d4feff;
+    height: 100vh;
+    position: relative;
+  }
+  footer .ui {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+  }
+
+  footer .ui p:nth-child(1) {
+    font-size: 2rem;
+    margin: 0px auto;
+  }
+  footer .ux {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    align-items: center;
+  }
+  footer img {
+    width: 40px;
   }
 }
