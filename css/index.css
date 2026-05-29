@@ -616,9 +616,9 @@ body {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    /* padding: 10px 10px 0px 10px; */
+    padding: 10px 10px 0px 10px;
     position: fixed;
-    width: 95%;
+    width: 100%;
     z-index: 10;
   }
   .first .logo img {
@@ -656,33 +656,59 @@ body {
   .con01 {
     background-color: #e9dff4;
     position: relative;
+    /* height: 500px; */
   }
   .con01 .photo img {
     width: 150px;
     height: 200px;
     display: block;
     object-fit: cover;
+    padding: 15px 0px 0px 15px;
   }
-  .con01 .all {
-    width: 90%;
-    margin: 0px auto;
-    align-items: center;
-    padding-top: 1.2rem;
+  .con01 .name p:first-child {
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
   }
-
-  .con01 .name div p:nth-child(1) {
-    font-size: 1.5rem;
-    margin-top: 1rem;
+  .con01 .kim {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 50%;
+  }
+  .con01 .Phone {
+    /* border: 1px solid red; */
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+  }
+  .con01 .email {
+    padding: 15px 0px 15px 15px;
+  }
+  .con01 .gtq {
+    padding: 15px 0px 15px 15px;
+  }
+  .con01 .ed {
+    padding: 15px 0px 15px 15px;
+  }
+  .con01 .html > p {
+    padding: 15px 0px 0px 15px;
   }
   .con01 .skill {
-    margin-top: 20px;
+    padding: 15px 0px 15px 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 60%;
   }
 
-  .con01 .skill img {
-    display: inline-block;
-    width: 4.2rem;
+  .con01 .skill li > img {
+    display: block;
+    width: 50px;
   }
-
+  .con01 .skill li {
+    width: calc((100% - 50px) / 3);
+  }
   .con02 {
     display: none;
   }
@@ -693,6 +719,9 @@ body {
     display: none;
   }
   .con05 {
+    display: none;
+  }
+  footer {
     display: none;
   }
 }
