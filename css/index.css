@@ -940,13 +940,7 @@ body {
     background-color: #fdfbef;
     position: relative;
   }
-  .con04 > p {
-    font-size: 3.5rem;
-    font-weight: bold;
-    position: absolute;
-    top: 40%;
-    left: 5%;
-  }
+
   /* 설명 */
   .con04 .k-feat {
     position: absolute;
@@ -1039,12 +1033,7 @@ body {
     margin: 20px 0px;
   }
   /* team_tool */
-  .con04 .team {
-    width: 50%;
-    position: absolute;
-    left: 5%;
-    bottom: 6%;
-  }
+
   .con04 .team_tool {
     font-size: 20px;
     display: flex;
