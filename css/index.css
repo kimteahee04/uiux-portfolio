@@ -743,7 +743,7 @@ body {
 
   .con02 .box .folio {
     width: 62%;
-    height: 23%;
+    height: 24%;
     background-image: url(../img/cafe\ last.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -828,9 +828,114 @@ body {
     margin: 10px 0px;
   }
 
+  /* con03 */
   .con03 {
-    display: none;
+    background-color: #d3e5f8;
+    position: relative;
+    padding: 20px 0px;
   }
+
+  .con03 .Project_2 {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .con03 .Project_2 img:nth-child(3) {
+    object-fit: cover;
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+  }
+  .con03 .Project_2 img {
+    width: 75%;
+    display: block;
+    margin: 0px auto;
+  }
+  .con03 .folio_1 {
+    width: 62%;
+    height: 23%;
+    background-image: url(../img/사회\ 복시\ 최종\ 시안\ \,\ pc버전.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    left: 19%;
+    top: 3%;
+    /* transition: 10s; */
+  }
+  /* society */
+  .con03 .society {
+    width: 90%;
+    margin: 0px auto;
+  }
+  /* tool */
+
+  .con03 .tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con03 .society_tool > p {
+    font-size: 25px;
+  }
+  .con03 .society_tool img {
+    object-fit: cover;
+    width: 30px;
+  }
+  .con03 .society_tool > img {
+    width: 20px;
+  }
+
+  .con03 .society_tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con03 .society_tool > p {
+    font-size: 25px;
+  }
+  .con03 .society_tool img {
+    object-fit: cover;
+    width: 30px;
+  }
+  .con03 .society_tool > img {
+    width: 20px;
+  }
+  /* link */
+  .con03 .society_link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 10px;
+  }
+  .con03 .society_link a:first-child {
+    padding: 4px;
+  }
+  .con03 .society_link a > img {
+    display: block;
+    width: 30px;
+  }
+
+  .con03 .society_link a:first-child {
+    padding: 4px;
+  }
+  .con03 .society_link a > img {
+    display: block;
+    width: 30px;
+  }
+
+  .con03 h3 {
+    font-size: 2rem;
+  }
+  .con03 .society > p {
+    font-size: 25px;
+    margin: 10px 0px;
+  }
+
   .con04 {
     display: none;
   }
