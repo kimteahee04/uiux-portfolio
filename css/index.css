@@ -642,13 +642,13 @@ body {
   .first .Profile {
     width: 95%;
     margin: 0px auto;
-    padding-top: 7rem;
+    padding-top: 10rem;
   }
   .first .down {
     /* border: 1px solid red; */
     font-size: 30px;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
   .first .down a > img {
     /* border: 1px solid red; */
@@ -1066,7 +1066,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 175px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .con04 .team_link a:first-child {
     padding: 4px;
@@ -1114,9 +1114,32 @@ body {
     /* transition: 10s; */
   }
 
+  /* con05 */
   .con05 {
-    display: none;
+    background-color: #dddeff;
+    position: relative;
+    height: 500px;
   }
+  .con05 h4 {
+    font-size: 3.5rem;
+  }
+  .con05 .ai {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 10%;
+  }
+  .con05 .ai img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .con05 .ai li {
+    width: calc((100% - 4rem) / 3);
+  }
+
   footer {
     display: none;
   }
