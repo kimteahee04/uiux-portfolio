@@ -935,10 +935,185 @@ body {
     font-size: 25px;
     margin: 10px 0px;
   }
-
+  /* con04 */
   .con04 {
-    display: none;
+    background-color: #fdfbef;
+    position: relative;
   }
+  .con04 > p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+  /* 설명 */
+  .con04 .k-feat {
+    position: absolute;
+    top: 52%;
+    left: 5%;
+  }
+  .con04 .k-feat p:first-child {
+    font-size: 2rem;
+  }
+  .con04 .k-feat p:nth-child(2) {
+    font-size: 2rem;
+    margin: 20px 0px;
+  }
+  .con04 .k-feat p:last-child {
+    font-size: 1rem;
+    margin: 20px 0px;
+  }
+
+  /* team_tool */
+  .con04 .team {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+  }
+  .con04 .team_tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con04 .team_tool > p {
+    font-size: 45px;
+  }
+  .con04 .team .team_tool img {
+    object-fit: cover;
+    width: 35px;
+  }
+
+  /* team_link */
+  .con04 .team_link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    margin-top: 30px;
+  }
+  .con04 .team_link a:first-child {
+    padding: 4px;
+  }
+  .con04 .team_link a > img {
+    display: block;
+    width: 30px;
+  }
+  .con04 > img {
+    position: absolute;
+    width: 90%;
+    right: 4%;
+    top: 10%;
+  }
+
+  /* con4 */
+  .con04 {
+    background-color: #fdfbef;
+    height: 100vh;
+    position: relative;
+  }
+  .con04 > p {
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+  /* 설명 */
+  .con04 .k-feat {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+  }
+  .con04 .k-feat p:first-child {
+    font-size: 2rem;
+  }
+  .con04 .k-feat p:nth-child(2) {
+    font-size: 2rem;
+    margin: 20px 0px;
+  }
+  .con04 .k-feat p:last-child {
+    margin: 20px 0px;
+  }
+  /* team_tool */
+  .con04 .team {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 6%;
+  }
+  .con04 .team_tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con04 .team_tool > p {
+    font-size: 25px;
+  }
+  .con04 .team .team_tool img {
+    object-fit: cover;
+    width: 25px;
+  }
+
+  /* team_link */
+  .con04 .team_link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    margin-top: 30px;
+  }
+  .con04 .team_link a:first-child {
+    padding: 4px;
+  }
+  .con04 .team_link a > img {
+    display: block;
+    width: 30px;
+  }
+  .con04 > img {
+    border: 1px solid red;
+    position: absolute;
+    /* width: 800px; */
+    right: 10%;
+    top: 10%;
+  }
+  .con04 .team_3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+  }
+  .con04 .team_3 img:nth-child(3) {
+    object-fit: cover;
+  }
+  .con04 .team_3 img {
+    width: 75%;
+    display: block;
+    margin: 0px auto;
+  }
+  .con04 .team_3 .folio_3 {
+    width: 70%;
+    height: 70%;
+    background-image: url(../img/팀\ 프로젝트\ 1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    left: 15%;
+    top: 2%;
+    /* transition: 10s; */
+  }
+
   .con05 {
     display: none;
   }
