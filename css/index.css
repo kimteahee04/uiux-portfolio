@@ -514,7 +514,7 @@ body {
 }
 
 /* 태블릿 */
-@media (min-width: 1220px) and (max-width: 786px) {
+@media (min-width: 768px) and (max-width: 1220px) {
   .first {
     border: 1px solid red;
     background-color: rgb(229, 245, 252);
