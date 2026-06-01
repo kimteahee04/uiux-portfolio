@@ -1143,18 +1143,29 @@ body {
 
   footer .ui p:nth-child(1) {
     padding: 20px 0px 20px 20px;
-    font-size: 1.5rem;
+    font-size: 23px;
     margin: 0px auto;
   }
   footer .ux {
-    /* border: 1px solid red; */
-    display: flex;
-    gap: 1rem;
-
-    align-items: center;
+    padding-left: 20px;
   }
   footer img {
-    padding: 20px 0px 20px 20px;
-    width: 50px;
+    width: 40px;
+  }
+  footer .ux div:first-child {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  footer .ux div:last-child {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    margin: 20px auto;
   }
 }
