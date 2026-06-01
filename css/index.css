@@ -943,17 +943,12 @@ body {
   .con04 {
     background-color: #fdfbef;
     position: relative;
+    height: 840px;
   }
 
   /* 설명 */
-  .con04 .k-feat {
-    position: absolute;
-    top: 52%;
-    left: 5%;
-  }
-  .con04 .k-feat p:first-child {
-    font-size: 2rem;
-  }
+ 
+
   .con04 .k-feat p:nth-child(2) {
     font-size: 2rem;
     margin: 20px 0px;
@@ -966,7 +961,9 @@ body {
   /* team_tool */
   .con04 .team {
     width: 50%;
-    padding: 47rem 0px 0px 1.5rem;
+    position: absolute;
+    bottom: 60px;
+    left: 25px;
   }
   .con04 .team_tool {
     font-size: 20px;
@@ -1006,34 +1003,24 @@ body {
   }
 
   /* con4 */
-  .con04 {
-    background-color: #fdfbef;
-    height: 100vh;
-    position: relative;
-  }
+
   .con04 > p {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 5%;
   }
   /* 설명 */
   .con04 .k-feat {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 5%;
   }
   .con04 .k-feat p:first-child {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  .con04 .k-feat p:nth-child(2) {
-    font-size: 2rem;
-    margin: 20px 0px;
-  }
-  .con04 .k-feat p:last-child {
-    margin: 20px 0px;
-  }
+
   /* team_tool */
 
   .con04 .team_tool {
@@ -1077,10 +1064,9 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0px auto;
-    position: relative;
     display: flex;
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 0%;
   }
   .con04 .team_3 img:nth-child(3) {
