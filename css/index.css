@@ -511,11 +511,20 @@ body {
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
   .first {
-    background-color: rgb(220, 243, 251);
+    background-color: rgb(232, 249, 255);
+  }
+  .first header img {
+    border: 1px solid blue;
+    display: block;
+    width: 73px;
   }
   .first header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    width: 100%;
   }
   .first header ul {
     display: none;
