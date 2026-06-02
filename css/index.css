@@ -511,194 +511,151 @@ body {
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
   .first {
-    border: 1px solid red;
-    background-color: rgb(229, 245, 252);
+    background-color: rgb(228, 248, 254);
     position: relative;
-    min-height: 100vh;
-  }
-  .Profile {
-    border: 1px solid red;
   }
 
-  /* header */
-  header {
+  .first header {
+    /* border: 1px solid red; */
     display: flex;
-
-    padding: 20px 60px;
-
     justify-content: space-between;
+    padding: 10px 10px 0px 10px;
     position: fixed;
-    z-index: 10;
     width: 100%;
+    z-index: 10;
   }
-  header ul {
-    display: none;
+  .first .logo img {
+    width: 60px;
+    display: flex;
   }
-  .logo img {
-    width: 70px;
+  .first header > img {
     display: block;
-  }
-  header img {
-    width: 70px;
-    display: block;
-  }
-  header nav img {
+    width: 60px;
+    height: 60px;
     cursor: pointer;
   }
-  /* Profile */
-  .Profile {
-    font-weight: normal;
-    position: absolute;
-
-    top: 30%;
-    left: 20%;
+  .first header ul {
+    display: none;
   }
-  .Profile span {
-    display: block;
-  }
-  .Profile h2 {
-    font-size: 2rem;
-  }
-  .Profile h2 span {
-    padding: 1rem 0px;
-  }
-  .Profile .txt {
-    font-weight: bold;
-    font-size: 1.5rem;
-  }
-  /* down */
-  .first .down {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .down p {
-    font-weight: bold;
-    font-size: 55px;
-    font-family: "Cause", cursive;
-  }
-
-  .down img {
-    width: 55px;
-    display: block;
+  .first .Profile {
+    width: 95%;
     margin: 0px auto;
+    padding-top: 10rem;
   }
-
-  /* Profile */
-  .Profile {
-    position: absolute;
-    top: 30%;
-    left: 20%;
+  .first .down {
+    /* border: 1px solid red; */
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6rem;
   }
-  .Profile h2 span {
+  .first .down a > img {
+    /* border: 1px solid red; */
     display: block;
-  }
-
-  .Profile .uiux {
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    width: 40px;
+    margin: 0px auto;
   }
 
   /* contents */
   /* con01 */
   .con01 {
-    height: 100vh;
     background-color: #e9dff4;
     position: relative;
   }
   .con01 .photo img {
-    width: 400px;
-    height: 600px;
+    width: 150px;
+    height: 200px;
     display: block;
     object-fit: cover;
+    padding: 15px 0px 0px 15px;
   }
-  .con01 .all {
-    display: flex;
-    gap: 6rem;
-    width: 80%;
-    margin: 0px auto;
-    align-items: center;
+  .con01 .name p:first-child {
+    font-size: 1.2rem;
+  }
+  .con01 .kim {
     position: absolute;
-    top: 16%;
-    left: 20%;
+    top: 5%;
+    right: 10%;
+    width: 50%;
+    padding-left: 10px;
   }
-  .con01 .html p {
+  .con01 .Phone {
+    width: 50%;
     position: absolute;
-    font-size: 20px;
-    left: 32%;
-    bottom: 13%;
-  }
-  .con01 .name div p:nth-child(1) {
-    font-size: 1.5rem;
-    margin-top: 3.5rem;
-  }
-  .con01 .skill {
-    position: absolute;
-    left: 32%;
-    bottom: -3%;
-    display: flex;
-  }
-  .con01 .name {
-    padding-bottom: 40px;
-  }
-
-  .con01 .skill img {
-    display: inline-block;
-    width: 5.2rem;
+    top: 20%;
+    right: 10%;
+    padding-left: 10px;
   }
   .con01 .email {
-    margin-top: 0px;
-    position: absolute;
-    right: 35%;
-    top: 15%;
+    padding: 15px 0px 15px 15px;
   }
   .con01 .gtq {
-    position: absolute;
-    right: 40%;
-    top: 35%;
+    padding: 15px 0px 15px 15px;
   }
+  .con01 .ed {
+    padding: 15px 0px 15px 15px;
+  }
+  .con01 .html > p {
+    padding: 15px 0px 0px 15px;
+  }
+  .con01 .skill {
+    padding: 15px 0px 15px 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+
+  .con01 .skill li > img {
+    display: block;
+    width: 50px;
+  }
+  .con01 .skill li {
+    width: calc((100% - 50px) / 3);
+  }
+
   /* con02 */
   .con02 {
-    height: 100vh;
     background-color: #ffead7;
     position: relative;
+    /* padding-bottom: 10px; */
   }
+
   .con02 .box {
+    /* border: 1px solid red; */
     width: 90%;
-    max-width: 800px;
+
     margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 22%;
-    left: 7%;
+    padding-top: 20px;
   }
   .con02 .box img:nth-child(3) {
     object-fit: cover;
+    width: 50%;
   }
   .con02 .box img {
-    width: 100%;
+    /* border: 1px solid red; */
+    width: 75%;
+    display: block;
+    margin: 0px auto;
   }
+
   .con02 .box .folio {
-    width: 92%;
-    height: 72%;
+    width: 62%;
+    height: 24%;
     background-image: url(../img/cafe\ last.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 
     position: absolute;
-    left: 4%;
-    top: 1%;
+    left: 19%;
+    top: 3%;
+    /* transition: 10s; */
   }
-  /* cafe */
   .con02 .cafe {
-    position: absolute;
-    right: 18%;
-    bottom: 40%;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0px auto;
   }
-
   /* tool */
   .con02 .cafe .tool {
     font-size: 20px;
@@ -723,7 +680,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 150px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .con02 .link a:first-child {
     padding: 4px;
@@ -740,7 +697,7 @@ body {
   }
   .con02 .cafe .tool img {
     object-fit: cover;
-    width: 40px;
+    width: 30px;
   }
   .con02 .tool > img {
     width: 20px;
@@ -748,60 +705,59 @@ body {
   /* link */
 
   .con02 .link a:first-child {
-    padding: 7px;
+    padding: 4px;
   }
   .con02 .link a > img {
     display: block;
     width: 30px;
   }
   .con02 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .con02 .cafe > p {
     font-size: 25px;
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
 
   /* con03 */
   .con03 {
-    height: 100vh;
     background-color: #d3e5f8;
     position: relative;
+    padding: 20px 0px;
   }
 
   .con03 .Project_2 {
     width: 90%;
-    max-width: 800px;
     margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 22%;
-    left: 30%;
   }
   .con03 .Project_2 img:nth-child(3) {
     object-fit: cover;
+    width: 50%;
+    display: block;
+    margin: 0px auto;
   }
   .con03 .Project_2 img {
-    width: 100%;
+    width: 75%;
+    display: block;
+    margin: 0px auto;
   }
   .con03 .folio_1 {
-    width: 94%;
-    height: 71%;
+    width: 62%;
+    height: 23%;
     background-image: url(../img/사회\ 복시\ 최종\ 시안\ \,\ pc버전.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+
     position: absolute;
-    left: 3%;
-    top: 1%;
+    left: 19%;
+    top: 3%;
     /* transition: 10s; */
   }
-  /* cafe */
+  /* society */
   .con03 .society {
-    position: absolute;
-    left: 15%;
-    bottom: 40%;
+    width: 90%;
+    margin: 0px auto;
   }
   /* tool */
 
@@ -814,9 +770,12 @@ body {
   .con03 .society_tool > p {
     font-size: 25px;
   }
-
+  .con03 .society_tool img {
+    object-fit: cover;
+    width: 30px;
+  }
   .con03 .society_tool > img {
-    width: 40px;
+    width: 20px;
   }
 
   .con03 .society_tool {
@@ -825,10 +784,16 @@ body {
     gap: 1rem;
     align-items: center;
   }
-  .con0 .society_tool > p {
+  .con03 .society_tool > p {
     font-size: 25px;
   }
-
+  .con03 .society_tool img {
+    object-fit: cover;
+    width: 30px;
+  }
+  .con03 .society_tool > img {
+    width: 20px;
+  }
   /* link */
   .con03 .society_link {
     border: 1px solid #000;
@@ -836,7 +801,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 150px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .con03 .society_link a:first-child {
     padding: 4px;
@@ -845,16 +810,9 @@ body {
     display: block;
     width: 30px;
   }
-  .con03 .society_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
+
   .con03 .society_link a:first-child {
-    padding: 7px;
+    padding: 4px;
   }
   .con03 .society_link a > img {
     display: block;
@@ -862,41 +820,27 @@ body {
   }
 
   .con03 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .con03 .society > p {
     font-size: 25px;
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
-
-  /* con4 */
+  /* con04 */
   .con04 {
-    height: 100;
     background-color: #fdfbef;
     position: relative;
+    height: 840px;
   }
-  .con04 > p {
-    font-size: 3.5rem;
-    font-weight: bold;
-    position: absolute;
-    top: 15%;
-    left: 5%;
-  }
+
   /* 설명 */
-  .con04 .k-feat {
-    position: absolute;
-    top: 45%;
-    left: 5%;
-  }
-  .con04 .k-feat p:first-child {
-    font-size: 3rem;
-  }
+
   .con04 .k-feat p:nth-child(2) {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 20px 0px;
   }
   .con04 .k-feat p:last-child {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 20px 0px;
   }
 
@@ -904,21 +848,14 @@ body {
   .con04 .team {
     width: 50%;
     position: absolute;
-    left: 5%;
-    bottom: 10%;
+    bottom: 60px;
+    left: 25px;
   }
   .con04 .team_tool {
     font-size: 20px;
     display: flex;
     gap: 1rem;
     align-items: center;
-  }
-  .con04 .team_tool > p {
-    font-size: 45px;
-  }
-  .con04 .team .team_tool img {
-    object-fit: cover;
-    width: 40px;
   }
 
   /* team_link */
@@ -931,7 +868,7 @@ body {
     margin-top: 30px;
   }
   .con04 .team_link a:first-child {
-    padding: 7px;
+    padding: 4px;
   }
   .con04 .team_link a > img {
     display: block;
@@ -939,7 +876,53 @@ body {
   }
   .con04 > img {
     position: absolute;
-    width: 800px;
+    width: 90%;
+    right: 4%;
+    top: 10%;
+  }
+
+  /* con4 */
+
+  .con04 > p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  /* 설명 */
+  .con04 .k-feat {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+  }
+  .con04 .k-feat p:first-child {
+    font-size: 1.5rem;
+  }
+
+  /* team_tool */
+
+  .con04 .team_tool > p {
+    font-size: 25px;
+  }
+  .con04 .team .team_tool img {
+    object-fit: cover;
+    width: 25px;
+  }
+
+  /* team_link */
+
+  .con04 .team_link a:first-child {
+    padding: 4px;
+  }
+  .con04 .team_link a > img {
+    display: block;
+    width: 30px;
+  }
+  .con04 > img {
+    border: 1px solid red;
+    position: absolute;
+    /* width: 800px; */
     right: 10%;
     top: 10%;
   }
@@ -947,20 +930,21 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0px auto;
-    position: relative;
     display: flex;
     position: absolute;
-    top: 10%;
-    right: 7%;
+    top: 5%;
+    right: 0%;
   }
   .con04 .team_3 img:nth-child(3) {
     object-fit: cover;
   }
   .con04 .team_3 img {
-    width: 70%;
+    width: 75%;
+    display: block;
+    margin: 0px auto;
   }
   .con04 .team_3 .folio_3 {
-    width: 68%;
+    width: 70%;
     height: 70%;
     background-image: url(../img/팀\ 프로젝트\ 1.png);
     background-position: center top;
@@ -968,38 +952,36 @@ body {
     background-size: cover;
 
     position: absolute;
-    left: 1%;
+    left: 15%;
     top: 2%;
     /* transition: 10s; */
   }
 
   /* con05 */
   .con05 {
-    height: 100vh;
     background-color: #dddeff;
     position: relative;
+    height: 500px;
   }
   .con05 h4 {
-    font-size: 5rem;
-    position: absolute;
-    top: 3%;
-    left: 2%;
+    font-size: 2.5rem;
+    padding: 10px 0px 0px 20px;
   }
   .con05 .ai {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
     position: absolute;
-    left: 15%;
-    bottom: 10%;
+    top: 30%;
+    left: 10%;
   }
   .con05 .ai img {
     display: block;
-
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 124px;
     object-fit: cover;
   }
+
   .con05 .ai li {
     width: calc((100% - 4rem) / 3);
   }
@@ -1007,31 +989,36 @@ body {
   /* footer */
   footer {
     background-color: #d4feff;
-    height: 100vh;
     position: relative;
+    padding: 50px 0px 50px 0px;
   }
-  footer .ui {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-  }
-  footer .ui p:first-child {
-    font-size: 5rem;
-  }
-  footer .ui p:nth-child(2) {
-    font-size: 3rem;
+
+  footer .ui p:nth-child(1) {
+    padding: 20px 0px 20px 20px;
+    font-size: 23px;
+    margin: 0px auto;
   }
   footer .ux {
-    border-top: 1px solid #000;
-    display: flex;
-    gap: 2rem;
-    position: absolute;
-    bottom: 10%;
-    left: 20%;
-    align-items: center;
+    padding-left: 20px;
   }
   footer img {
     width: 40px;
+  }
+  footer .ux div:first-child {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  footer .ux div:last-child {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    margin: 20px auto;
   }
 }
 
