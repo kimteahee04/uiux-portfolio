@@ -510,6 +510,10 @@ body {
 
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
+  body {
+    background: blue;
+  }
+
   .first {
     background-color: rgb(232, 249, 255);
   }
@@ -1044,6 +1048,7 @@ body {
     margin: 20px auto;
   }
 }
-* {
-  outline: 1px solid red;
+
+body {
+  background: red;
 }
