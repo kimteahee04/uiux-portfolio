@@ -3,7 +3,7 @@ body {
   font-family: "IBM Plex Sans KR", sans-serif;
 }
 /* pc */
-@media (min-width: 1220px) {
+@media (min-width: 1221px) {
   body {
     display: none;
   }
