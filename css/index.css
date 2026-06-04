@@ -6,32 +6,26 @@ body {
 @media (min-width: 1220px) {
   .first {
     height: 100vh;
-    background-color: #f7efff;
+    background-color: #f5ecff;
     position: relative;
   }
   .first header {
-    /* border: 1px solid red; */
     display: flex;
-    gap: 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     z-index: 10;
     width: 100%;
-    padding-top: 10px;
+    padding: 10px 10px 0px 10px;
   }
   .first header ul {
-    /* border: 1px solid red; */
     display: flex;
-    gap: 2rem;
-    font-size: 2rem;
+    gap: 1.5rem;
+    font-size: 1.5rem;
     height: 100%;
     text-align: center;
   }
-  .first header ul a {
-    display: block;
-    padding: 10px 10px;
-  }
+
   .first header > img {
     display: none;
   }
@@ -70,14 +64,109 @@ body {
     width: 55px;
     margin: 0px auto;
   }
-  .first .down a:first-child {
-  }
+
   .first .down a {
     display: block;
   }
-  .con01 {
-    display: none;
+
+  /* contents */
+
+  /* con01 */
+  #contents .con01 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e9dff4;
+    position: relative;
   }
+  .con01 .photo img {
+    width: 400px;
+    height: 600px;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+  }
+  /* kim */
+  .con01 .kim {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+  .con01 .kim p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .kim p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* Phone */
+  .con01 .Phone {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+  }
+  .con01 .Phone p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .Phone p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* email */
+  .con01 .email {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+  }
+  .con01 .email p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .email p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* gtq */
+  .con01 .gtq {
+    position: absolute;
+    top: 33%;
+    left: 60%;
+  }
+  .con01 .gtq p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .gtq p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* ed */
+  .con01 .ed {
+    position: absolute;
+    top: 46%;
+    left: 40%;
+  }
+  .con01 .ed p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .ed p {
+    font-size: 1.3rem;
+  }
+  /* html */
+  .con01 .html {
+    position: absolute;
+    bottom: 24%;
+    left: 40%;
+  }
+  .con01 .html > p {
+    font-size: 30px;
+  }
+  .con01 .skill {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .con01 .skill li img {
+    display: block;
+    width: 65px;
+  }
+
+  /* con02 */
   .con02 {
     display: none;
   }
