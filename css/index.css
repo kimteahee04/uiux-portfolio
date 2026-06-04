@@ -3,515 +3,102 @@ body {
   font-family: "IBM Plex Sans KR", sans-serif;
 }
 /* pc */
-@media (min-width: 1221px) {
-  body {
+@media (min-width: 1220px) {
+  .first {
+    height: 100vh;
+    background-color: #f7efff;
+    position: relative;
+  }
+  .first header {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .first header ul {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    height: 100%;
+    text-align: center;
+  }
+  .first header ul a {
+    display: block;
+    padding: 10px 10px;
+  }
+  .first header > img {
+    display: none;
+  }
+  .first header h1 img {
+    width: 70px;
+    display: block;
+  }
+  .first header h1 a {
+    display: block;
+  }
+  /* Profile */
+  .first .Profile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .first .Profile h2 {
+    font-size: 3rem;
+  }
+  .first .Profile .txt {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  /* down */
+  .first .down {
+    position: absolute;
+    text-align: center;
+    font-size: 2.8rem;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .first .down img {
+    display: block;
+    width: 55px;
+    margin: 0px auto;
+  }
+  .first .down a:first-child {
+  }
+  .first .down a {
+    display: block;
+  }
+  .con01 {
+    display: none;
+  }
+  .con02 {
+    display: none;
+  }
+  .con03 {
+    display: none;
+  }
+  .con04 {
+    display: none;
+  }
+  .con05 {
+    display: none;
+  }
+  footer {
     display: none;
   }
 }
 
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
-  .first {
-    width: 100%;
-    background-color: #f7efff;
-    position: relative;
-  }
-  /* header */
-  header {
-    display: flex;
-    padding: 0px 20px;
-    padding-top: 20px;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-  }
-  header ul {
+  body {
     display: none;
-  }
-  .logo img {
-    width: 85px;
-    display: block;
-  }
-  header img {
-    width: 85px;
-    display: block;
-  }
-  header nav img {
-    cursor: pointer;
-  }
-  /* Profile */
-  .Profile {
-    font-weight: normal;
-    position: absolute;
-    top: 30%;
-    left: 20%;
-  }
-  .Profile span {
-    display: block;
-  }
-  .Profile h2 {
-    font-size: 3rem;
-  }
-  .Profile h2 span {
-    padding: 1rem 0px;
-  }
-  .Profile .txt {
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  /* down */
-  .first .down {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  .down p {
-    font-weight: bold;
-    font-size: 55px;
-  }
-
-  .down img {
-    width: 55px;
-    display: block;
-    margin: 0px auto;
-  }
-
-  /* contents */
-  /* con01 */
-  .con01 {
-    height: 100vh;
-    background-color: #e9dff4;
-    position: relative;
-  }
-  .con01 .photo img {
-    width: 400px;
-    height: 600px;
-    display: block;
-    object-fit: cover;
-  }
-  .con01 .all {
-    display: flex;
-    gap: 6rem;
-    width: 80%;
-    margin: 0px auto;
-    align-items: center;
-    position: absolute;
-    top: 16%;
-    left: 20%;
-  }
-  .con01 .html p {
-    position: absolute;
-    font-size: 20px;
-    left: 32%;
-    bottom: 13%;
-  }
-  .con01 .name div p:nth-child(1) {
-    font-size: 1.5rem;
-    margin-top: 3.5rem;
-  }
-  .con01 .skill {
-    position: absolute;
-    left: 32%;
-    bottom: -3%;
-    display: flex;
-  }
-  .con01 .name {
-    padding-bottom: 40px;
-  }
-
-  .con01 .skill img {
-    display: inline-block;
-    width: 5.2rem;
-  }
-  .con01 .email {
-    margin-top: 0px;
-    position: absolute;
-    right: 35%;
-    top: 15%;
-  }
-  .con01 .gtq {
-    position: absolute;
-    right: 40%;
-    top: 35%;
-  }
-  /* con02 */
-  .con02 {
-    height: 100vh;
-    background-color: #ffead7;
-    position: relative;
-  }
-  .con02 .box {
-    width: 90%;
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 22%;
-    left: 7%;
-  }
-  .con02 .box img:nth-child(3) {
-    object-fit: cover;
-  }
-  .con02 .box img {
-    width: 100%;
-  }
-  .con02 .box .folio {
-    width: 92%;
-    height: 72%;
-    background-image: url(../img/cafe\ last.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: absolute;
-    left: 4%;
-    top: 1%;
-  }
-  /* cafe */
-  .con02 .cafe {
-    position: absolute;
-    right: 18%;
-    bottom: 40%;
-  }
-
-  /* tool */
-  .con02 .cafe .tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con02 .tool > p {
-    font-size: 25px;
-  }
-  .con02 .cafe .tool img {
-    object-fit: cover;
-    width: 30px;
-  }
-  .con02 .tool > img {
-    width: 20px;
-  }
-  /* link */
-  .con02 .link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con02 .link a:first-child {
-    padding: 4px;
-  }
-  .con02 .link a > img {
-    display: block;
-    width: 30px;
-  }
-
-  /* tool */
-
-  .con02 .tool > p {
-    font-size: 25px;
-  }
-  .con02 .cafe .tool img {
-    object-fit: cover;
-    width: 40px;
-  }
-  .con02 .tool > img {
-    width: 20px;
-  }
-  /* link */
-
-  .con02 .link a:first-child {
-    padding: 7px;
-  }
-  .con02 .link a > img {
-    display: block;
-    width: 30px;
-  }
-  .con02 h3 {
-    font-size: 3rem;
-  }
-  .con02 .cafe > p {
-    font-size: 25px;
-    margin: 20px 0px;
-  }
-
-  /* con03 */
-  .con03 {
-    height: 100vh;
-    background-color: #d3e5f8;
-    position: relative;
-  }
-
-  .con03 .Project_2 {
-    width: 90%;
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 22%;
-    left: 30%;
-  }
-  .con03 .Project_2 img:nth-child(3) {
-    object-fit: cover;
-  }
-  .con03 .Project_2 img {
-    width: 100%;
-  }
-  .con03 .folio_1 {
-    width: 94%;
-    height: 71%;
-    background-image: url(../img/사회\ 복시\ 최종\ 시안\ \,\ pc버전.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 3%;
-    top: 1%;
-    /* transition: 10s; */
-  }
-  /* cafe */
-  .con03 .society {
-    position: absolute;
-    left: 15%;
-    bottom: 40%;
-  }
-  /* tool */
-
-  .con03 .tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con03 .society_tool > p {
-    font-size: 25px;
-  }
-
-  .con03 .society_tool > img {
-    width: 40px;
-  }
-
-  .con03 .society_tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con0 .society_tool > p {
-    font-size: 25px;
-  }
-
-  /* link */
-  .con03 .society_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con03 .society_link a:first-child {
-    padding: 4px;
-  }
-  .con03 .society_link a > img {
-    display: block;
-    width: 30px;
-  }
-  .con03 .society_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 150px;
-    margin-top: 30px;
-  }
-  .con03 .society_link a:first-child {
-    padding: 7px;
-  }
-  .con03 .society_link a > img {
-    display: block;
-    width: 30px;
-  }
-
-  .con03 h3 {
-    font-size: 3rem;
-  }
-  .con03 .society > p {
-    font-size: 25px;
-    margin: 20px 0px;
-  }
-
-  /* con4 */
-  .con04 {
-    height: 100;
-    background-color: #fdfbef;
-    position: relative;
-  }
-  .con04 > p {
-    font-size: 3.5rem;
-    font-weight: bold;
-    position: absolute;
-    top: 15%;
-    left: 5%;
-  }
-  /* 설명 */
-  .con04 .k-feat {
-    position: absolute;
-    top: 45%;
-    left: 5%;
-  }
-  .con04 .k-feat p:first-child {
-    font-size: 3rem;
-  }
-  .con04 .k-feat p:nth-child(2) {
-    font-size: 2.5rem;
-    margin: 20px 0px;
-  }
-  .con04 .k-feat p:last-child {
-    font-size: 1.5rem;
-    margin: 20px 0px;
-  }
-
-  /* team_tool */
-  .con04 .team {
-    width: 50%;
-    position: absolute;
-    left: 5%;
-    bottom: 10%;
-  }
-  .con04 .team_tool {
-    font-size: 20px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .con04 .team_tool > p {
-    font-size: 45px;
-  }
-  .con04 .team .team_tool img {
-    object-fit: cover;
-    width: 40px;
-  }
-
-  /* team_link */
-  .con04 .team_link {
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 175px;
-    margin-top: 30px;
-  }
-  .con04 .team_link a:first-child {
-    padding: 7px;
-  }
-  .con04 .team_link a > img {
-    display: block;
-    width: 30px;
-  }
-  .con04 > img {
-    position: absolute;
-    width: 800px;
-    right: 10%;
-    top: 10%;
-  }
-  .con04 .team_3 {
-    width: 90%;
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    display: flex;
-    position: absolute;
-    top: 10%;
-    right: 7%;
-  }
-  .con04 .team_3 img:nth-child(3) {
-    object-fit: cover;
-  }
-  .con04 .team_3 img {
-    width: 70%;
-  }
-  .con04 .team_3 .folio_3 {
-    width: 68%;
-    height: 70%;
-    background-image: url(../img/팀\ 프로젝트\ 1.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: absolute;
-    left: 1%;
-    top: 2%;
-    /* transition: 10s; */
-  }
-
-  /* con05 */
-  .con05 {
-    height: 100vh;
-    background-color: #dddeff;
-    position: relative;
-  }
-  .con05 h4 {
-    font-size: 5rem;
-    position: absolute;
-    top: 3%;
-    left: 2%;
-  }
-  .con05 .ai {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 15%;
-    bottom: 10%;
-  }
-  .con05 .ai img {
-    display: block;
-
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-  }
-  .con05 .ai li {
-    width: calc((100% - 4rem) / 3);
-  }
-
-  /* footer */
-  footer {
-    background-color: #d4feff;
-    height: 100vh;
-    position: relative;
-  }
-  footer .ui {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-  }
-  footer .ui p:first-child {
-    font-size: 5rem;
-  }
-  footer .ui p:nth-child(2) {
-    font-size: 3rem;
-  }
-  footer .ux {
-    border-top: 1px solid #000;
-    display: flex;
-    gap: 2rem;
-    position: absolute;
-    bottom: 10%;
-    left: 20%;
-    align-items: center;
-  }
-  footer img {
-    width: 40px;
   }
 }
 
