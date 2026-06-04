@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "IBM Plex Sans KR", sans-serif;
 }
 /* pc */
@@ -546,8 +546,531 @@ body {
 
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1220px) {
-  body {
+  .first {
+    background-color: #f5ecff;
+  }
+  .first header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+  }
+  .first header ul {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    height: 100%;
+    text-align: center;
+  }
+
+  .first header > img {
     display: none;
+  }
+  .first header h1 img {
+    width: 70px;
+    display: block;
+  }
+  .first header h1 a {
+    display: block;
+  }
+
+  /* Profile */
+  .first .Profile {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 25%;
+  }
+  .first .Profile h2 {
+    font-size: 2rem;
+  }
+  .first .Profile .txt {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  /* down */
+  .first .down {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 15%;
+  }
+  .first .down img {
+    display: block;
+    width: 40px;
+    margin: 0px auto;
+  }
+
+  .first .down a {
+    display: block;
+  }
+
+  /* contents */
+
+  /* con01 */
+  #contents .con01 {
+    background-color: #e9dff4;
+    position: relative;
+    min-height: 100vh;
+  }
+  .con01 .photo img {
+    width: 30%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+  /* kim */
+  .con01 .kim {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+  }
+  .con01 .kim p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .kim p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* Phone */
+  .con01 .Phone {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+  }
+  .con01 .Phone p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .Phone p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* email */
+  .con01 .email {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+  }
+  .con01 .email p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .email p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* gtq */
+  .con01 .gtq {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+  }
+  .con01 .gtq p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .gtq p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  /* ed */
+  .con01 .ed {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+  }
+  .con01 .ed p:first-child {
+    font-size: 1.5rem;
+  }
+  .con01 .ed p {
+    font-size: 1.3rem;
+  }
+  /* html */
+  .con01 .html {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+  }
+  .con01 .html > p {
+    font-size: 30px;
+  }
+  .con01 .skill {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .con01 .skill li img {
+    display: block;
+    width: 65px;
+  }
+
+  /* con02 */
+  .con02 {
+    height: auto;
+    background-color: #ffead7;
+    position: relative;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+  }
+  .con02 .box {
+    max-width: 750px;
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+    margin-left: 30px;
+  }
+
+  .con02 .box img {
+    width: 70%;
+  }
+  .con02 .box .folio {
+    width: 65%;
+    height: 58%;
+    background-image: url(../img/cafe\ last.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 2%;
+    top: 19%;
+  }
+
+  /* tool */
+  .con02 .cafe .tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con02 .tool > p {
+    font-size: 25px;
+  }
+  .con02 .cafe .tool img {
+    object-fit: cover;
+    width: 30px;
+  }
+  .con02 .tool > img {
+    width: 20px;
+  }
+  /* link */
+  .con02 .link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 30px;
+  }
+  .con02 .link a:first-child {
+    padding: 4px;
+  }
+  .con02 .link a > img {
+    display: block;
+    width: 30px;
+  }
+
+  /* tool */
+
+  .con02 .tool > p {
+    font-size: 25px;
+  }
+  .con02 .cafe .tool img {
+    object-fit: cover;
+    width: 40px;
+  }
+  .con02 .tool > img {
+    width: 20px;
+  }
+  /* link */
+
+  .con02 .link a:first-child {
+    padding: 7px;
+  }
+  .con02 .link a > img {
+    display: block;
+    width: 30px;
+  }
+  .con02 h3 {
+    font-size: 3rem;
+  }
+  .con02 .cafe > p {
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+
+  /* con03 */
+  .con03 {
+    height: auto;
+    background-color: #dfedfc;
+    position: relative;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .con03 .Project_2 {
+    width: 90%;
+    max-width: 750px;
+    /* margin: 0px auto; */
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+    margin-left: 30px;
+  }
+  .con03 .Project_2 img:nth-child(3) {
+    object-fit: cover;
+  }
+  .con03 .Project_2 img {
+    width: 70%;
+  }
+  .con03 .folio_1 {
+    width: 65%;
+    height: 58%;
+    background-image: url(../img/사회\ 복시\ 최종\ 시안\ \,\ pc버전.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 2%;
+    top: 19%;
+    /* transition: 10s; */
+  }
+  /* cafe */
+  .con03 .society {
+    /* position: absolute;
+    left: 15%;
+    bottom: 40%; */
+  }
+  /* tool */
+
+  .con03 .tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con03 .society_tool > p {
+    font-size: 25px;
+  }
+
+  .con03 .society_tool > img {
+    width: 40px;
+  }
+
+  .con03 .society_tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con0 .society_tool > p {
+    font-size: 25px;
+  }
+
+  /* link */
+  .con03 .society_link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 30px;
+  }
+  .con03 .society_link a:first-child {
+    padding: 4px;
+  }
+  .con03 .society_link a > img {
+    display: block;
+    width: 30px;
+  }
+  .con03 .society_link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 30px;
+  }
+  .con03 .society_link a:first-child {
+    padding: 7px;
+  }
+  .con03 .society_link a > img {
+    display: block;
+    width: 30px;
+  }
+
+  .con03 h3 {
+    font-size: 3rem;
+  }
+  .con03 .society > p {
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+
+  /* con4 */
+  .con04 {
+    height: 100vh;
+    background-color: #fdfbef;
+    position: relative;
+  }
+  .con04 > p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+  /* 설명 */
+  .con04 .k-feat {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .con04 .k-feat p:first-child {
+    font-size: 3rem;
+  }
+  .con04 .k-feat p:nth-child(2) {
+    font-size: 2.5rem;
+    margin: 20px 0px;
+  }
+  .con04 .k-feat p:last-child {
+    font-size: 1.5rem;
+    margin: 20px 0px;
+  }
+
+  /* team_tool */
+  .con04 .team {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+  }
+  .con04 .team_tool {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .con04 .team_tool > p {
+    font-size: 45px;
+  }
+  .con04 .team .team_tool img {
+    object-fit: cover;
+    width: 40px;
+  }
+
+  /* team_link */
+  .con04 .team_link {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    margin-top: 30px;
+  }
+  .con04 .team_link a:first-child {
+    padding: 7px;
+  }
+  .con04 .team_link a > img {
+    display: block;
+    width: 30px;
+  }
+  .con04 > img {
+    position: absolute;
+    width: 800px;
+    right: 10%;
+    top: 10%;
+  }
+  .con04 .team_3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 7%;
+  }
+  .con04 .team_3 img:nth-child(3) {
+    object-fit: cover;
+  }
+  .con04 .team_3 img {
+    width: 70%;
+  }
+  .con04 .team_3 .folio_3 {
+    width: 68%;
+    height: 70%;
+    background-image: url(../img/팀\ 프로젝트\ 1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    /* transition: 10s; */
+  }
+
+  /* con05 */
+  /* con05 */
+  .con05 {
+    height: 100vh;
+    background-color: #dddeff;
+    position: relative;
+  }
+  .con05 h4 {
+    font-size: 5rem;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+  }
+  .con05 .ai {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+  }
+  .con05 .ai img {
+    display: block;
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .con05 .ai li {
+    width: calc((100% - 4rem) / 3);
+  }
+  /* footer */
+  footer {
+    background-color: #d4feff;
+    height: 100vh;
+    position: relative;
+  }
+  footer .ui {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+  footer .ui p:first-child {
+    font-size: 5rem;
+  }
+  footer .ui p:nth-child(2) {
+    font-size: 3rem;
+  }
+  footer .ux {
+    border-top: 1px solid #000;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    align-items: center;
+  }
+  footer img {
+    width: 40px;
   }
 }
 
