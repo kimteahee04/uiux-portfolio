@@ -710,10 +710,10 @@ body {
     padding-bottom: 100px;
     display: flex;
     align-items: center;
-    gap: 8rem;
+    gap: 10rem;
   }
   .con02 .box {
-    max-width: 750px;
+    max-width: 580px;
     position: relative;
     display: flex;
     padding-top: 100px;
@@ -804,14 +804,14 @@ body {
     background-color: #dfedfc;
     position: relative;
     display: flex;
-    gap: 8rem;
+    gap: 10rem;
     align-items: center;
     padding-bottom: 100px;
   }
 
   .con03 .Project_2 {
     width: 90%;
-    max-width: 750px;
+    max-width: 580px;
     /* margin: 0px auto; */
     position: relative;
     display: flex;
@@ -836,12 +836,7 @@ body {
     top: 19%;
     /* transition: 10s; */
   }
-  /* cafe */
-  .con03 .society {
-    /* position: absolute;
-    left: 15%;
-    bottom: 40%; */
-  }
+
   /* tool */
 
   .con03 .tool {
@@ -910,7 +905,7 @@ body {
 
   /* con4 */
   .con04 {
-    height: 100vh;
+    height: auto;
     background-color: #fdfbef;
     position: relative;
   }
@@ -984,7 +979,7 @@ body {
   }
   .con04 .team_3 {
     width: 90%;
-    max-width: 800px;
+    max-width: 580px;
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -1012,7 +1007,6 @@ body {
     /* transition: 10s; */
   }
 
-  /* con05 */
   /* con05 */
   .con05 {
     height: 100vh;
