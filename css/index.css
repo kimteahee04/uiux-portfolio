@@ -181,6 +181,7 @@ img {
     display: flex;
     gap: 2rem;
     margin-top: 1rem;
+    opacity: 0;
   }
 
   .con01 .skill li img {
@@ -188,6 +189,9 @@ img {
     width: 65px;
   }
 
+  .con01 .skill li {
+    transform: translateY(100px);
+  }
   /* =========================
      Project 1
   ========================= */
@@ -336,7 +340,7 @@ img {
     z-index: 2;
   }
 
-   .con03 .folio_1.active_1 {
+  .con03 .folio_1.active_1 {
     background-position: center bottom;
   }
   .con03 .society {

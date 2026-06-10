@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Jua&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
   </head>
   <body>
     <div class="first">
@@ -211,38 +214,26 @@
         </div>
       </footer>
       <script>
-        $(window).on("scroll", function () {
-          // 스크롤값
-          let scrollTop = $(window).scrollTop();
-          // console.log(scrollTop);
-
-          // con02의 위치값
-          let con02Top = $(".con02").offset().top;
-          // console.log(con02Top);
-          base = -300;
-          if (scrollTop >= con02Top + base) {
-            $(".box .folio").addClass("active");
-          } else {
-            $(".box .folio").removeClass("active");
-          }
-        });
-
-        // con03
-        $(window).on("scroll", function () {
-          // 스크롤값
-          let scrollTop = $(window).scrollTop();
-          // console.log(scrollTop);
-
-          // con03의 위치값
-          let con03Top = $(".con03").offset().top;
-          // console.log(con03Top);
-          base = -300;
-          if (scrollTop >= con03Top + base) {
-            $(".con03 .folio_1").addClass("active_1");
-          } else {
-            $(".con03 .folio_1").removeClass("active_1");
-          }
-        });
+        gsap
+          .timeline({
+            scrollTrigger: {
+              trigger: ".con01 ul",
+              start: "top 90%",
+              end: "80% 70%",
+              scrub: 2,
+              markers: true,
+            },
+          })
+          .to(".con01 .skill", {
+            opacity: 1,
+            duration: 1,
+          })
+          .to(".con01 li:nth-child(1)", { y: 0 }, 0.2)
+          .to(".con01 li:nth-child(2)", { y: 0 }, 0.4)
+          .to(".con01 li:nth-child(3)", { y: 0 }, 0.6)
+          .to(".con01 li:nth-child(4)", { y: 0 }, 0.8)
+          .to(".con01 li:nth-child(5)", { y: 0 }, 1.0)
+          .to(".con01 li:nth-child(6)", { y: 0 }, 1.2);
       </script>
     </div>
   </body>
