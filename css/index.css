@@ -231,7 +231,12 @@ img {
     position: absolute;
     left: 4%;
     top: 1%;
+    transition: 10s;
+
     z-index: 2;
+  }
+  .con02 .folio.active {
+    background-position: center bottom;
   }
 
   .con02 .cafe {
@@ -327,9 +332,13 @@ img {
     position: absolute;
     left: 4%;
     top: 1%;
+    transition: 10s;
     z-index: 2;
   }
 
+   .con03 .folio_1.active_1 {
+    background-position: center bottom;
+  }
   .con03 .society {
     position: absolute;
     left: 6%;
