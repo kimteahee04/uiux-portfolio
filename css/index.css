@@ -518,10 +518,12 @@ img {
     left: 15%;
     bottom: 10%;
     width: 75%;
+    opacity: 0;
   }
 
   .con05 .ai li {
     width: calc((100% - 2rem) / 3);
+    transform: translateY(150px);
   }
 
   .con05 .ai img {

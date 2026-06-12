@@ -221,12 +221,12 @@
               start: "top 90%",
               end: "80% 70%",
               scrub: 2,
-              markers: true,
+              // markers: true,
             },
           })
           .to(".con01 .skill", {
             opacity: 1,
-            duration: 1,
+            duration: 0.8,
           })
           .to(".con01 li:nth-child(1)", { y: 0 }, 0.2)
           .to(".con01 li:nth-child(2)", { y: 0 }, 0.4)
@@ -234,6 +234,27 @@
           .to(".con01 li:nth-child(4)", { y: 0 }, 0.8)
           .to(".con01 li:nth-child(5)", { y: 0 }, 1.0)
           .to(".con01 li:nth-child(6)", { y: 0 }, 1.2);
+
+        gsap
+          .timeline({
+            scrollTrigger: {
+              trigger: ".con05 ul",
+              start: "top 90%",
+              end: "80% 70%",
+              scrub: 2,
+              markers: true,
+            },
+          })
+          .to(".con05 .ai", {
+            opacity: 1,
+            duration: 0.4,
+          })
+          .to(".con05 li:nth-child(1)", { y: 0 }, 0.2)
+          .to(".con05 li:nth-child(2)", { y: 0 }, 0.4)
+          .to(".con05 li:nth-child(3)", { y: 0 }, 0.6)
+          .to(".con05 li:nth-child(4)", { y: 0 }, 0.8)
+          .to(".con05 li:nth-child(5)", { y: 0 }, 1.0)
+          .to(".con05 li:nth-child(6)", { y: 0 }, 1.2);
       </script>
     </div>
   </body>
