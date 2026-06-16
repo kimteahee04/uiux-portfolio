@@ -1108,7 +1108,7 @@ img {
     top: 0px;
     padding: 8rem 2rem 0px;
     background: #fff;
-    right: -100%;
+    left: -100%;
     width: 200px;
     height: 100vh;
     transition: 0.5s;
@@ -1118,7 +1118,7 @@ img {
     z-index: 20;
   }
   header ul.on {
-    right: 0;
+    left: 0;
   }
   /* con01 */
   .con01 {
