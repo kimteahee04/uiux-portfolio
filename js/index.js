@@ -38,3 +38,15 @@ $(window).on("scroll", function () {
     $(".con03 .folio_1").removeClass("active_1");
   }
 });
+
+// header
+
+$(function () {
+  $(".bar").on("click", function (e) {
+    e.preventDefault();
+
+    console.log("클릭!");
+
+    $("header ul").toggleClass("on");
+  });
+});

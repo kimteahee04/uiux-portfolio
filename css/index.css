@@ -1055,15 +1055,15 @@ img {
     display: block;
   }
 
-  .first header > img {
+  .first header > .bar {
     display: block;
     width: 50px;
     height: 50px;
     cursor: pointer;
   }
 
-  .first header ul {
-    display: none;
+  .first header ul li {
+    margin-bottom: 10px;
   }
 
   .first .Profile {
@@ -1100,7 +1100,26 @@ img {
     width: 40px;
     margin: 0 auto;
   }
-
+  /* on */
+  header ul {
+    color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    padding: 8rem 2rem 0px;
+    background: #fff;
+    right: -100%;
+    width: 200px;
+    height: 100vh;
+    transition: 0.5s;
+  }
+  header .bar {
+    position: relative;
+    z-index: 20;
+  }
+  header ul.on {
+    right: 0;
+  }
   /* con01 */
   .con01 {
     background-color: #e9dff4;
